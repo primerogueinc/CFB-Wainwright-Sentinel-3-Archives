@@ -1,0 +1,242 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-16",
+ "instrument": "OLCI",
+ "note": "",
+ "layers": [
+  "B01_(Raw)",
+  "B02_(Raw)",
+  "B03_(Raw)",
+  "B04_(Raw)",
+  "B05_(Raw)",
+  "B06_(Raw)",
+  "B07_(Raw)",
+  "B08_(Raw)",
+  "B09_(Raw)",
+  "B10_(Raw)",
+  "B11_(Raw)",
+  "B12_(Raw)",
+  "B13_(Raw)",
+  "B14_(Raw)",
+  "B15_(Raw)",
+  "B16_(Raw)",
+  "B17_(Raw)",
+  "B18_(Raw)",
+  "B19_(Raw)",
+  "B20_(Raw)",
+  "B21_(Raw)",
+  "Enhanced_Natural_Color",
+  "Highlight_Optimized_Natural_Color",
+  "OTCI",
+  "RGB",
+  "Tristimulus",
+  "True_color"
+ ],
+ "n_files": 27,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.005441921860424441,
+   0.003280340097650299
+  ],
+  "pixel_m_approx": [
+   367,
+   364
+  ],
+  "bounds": [
+   -111.0107,
+   52.6785,
+   -110.6461,
+   52.8327
+  ],
+  "values_at_points": {
+   "origin": {
+    "B01": 0.3559,
+    "B02": 0.3473,
+    "B03": 0.3277,
+    "B04": 0.3084,
+    "B05": 0.2986,
+    "B06": 0.2791,
+    "B07": 0.2776,
+    "B08": 0.294,
+    "B09": 0.296,
+    "B10": 0.2975,
+    "B11": 0.3135,
+    "B12": 0.3334,
+    "B13": 0.1808,
+    "B14": 0.2255,
+    "B15": 0.3076,
+    "B16": 0.3407,
+    "B17": 0.3604,
+    "B18": 0.3641,
+    "B19": 0.3423,
+    "B20": 0.2923,
+    "B21": 0.3864
+   },
+   "A_range2": {
+    "B01": 0.335,
+    "B02": 0.328,
+    "B03": 0.3073,
+    "B04": 0.2864,
+    "B05": 0.2766,
+    "B06": 0.2592,
+    "B07": 0.2573,
+    "B08": 0.271,
+    "B09": 0.2735,
+    "B10": 0.2762,
+    "B11": 0.2925,
+    "B12": 0.3123,
+    "B13": 0.1673,
+    "B14": 0.2088,
+    "B15": 0.2863,
+    "B16": 0.3181,
+    "B17": 0.3392,
+    "B18": 0.3439,
+    "B19": 0.3228,
+    "B20": 0.2725,
+    "B21": 0.3668
+   },
+   "B_road_head": {
+    "B01": 0.3355,
+    "B02": 0.3261,
+    "B03": 0.3076,
+    "B04": 0.287,
+    "B05": 0.2771,
+    "B06": 0.259,
+    "B07": 0.2564,
+    "B08": 0.2726,
+    "B09": 0.2737,
+    "B10": 0.2762,
+    "B11": 0.2927,
+    "B12": 0.3129,
+    "B13": 0.1685,
+    "B14": 0.2094,
+    "B15": 0.2867,
+    "B16": 0.3184,
+    "B17": 0.3415,
+    "B18": 0.3454,
+    "B19": 0.323,
+    "B20": 0.2735,
+    "B21": 0.371
+   }
+  },
+  "blue_B04_median": 0.33,
+  "cloud_flag": true
+ },
+ "previews": [
+  "preview.jpg"
+ ],
+ "original_upload": "36c5a29b-Browser_images_27.zip",
+ "original_upload_sha256": "51559a00b658f7270b42bb5e4db89f210fd96b66e9c535ae6b5904d6600fafea",
+ "files": {
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B01_(Raw).tiff": {
+   "bytes": 10943,
+   "sha256": "86c5f12f7c2e7534efe1dde1615055673a2016c1851f1646534916d71ce35783"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B02_(Raw).tiff": {
+   "bytes": 10937,
+   "sha256": "840609b13f501f61c085eda33f4faec3e73f01d2154256df2b992d857cff8649"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B03_(Raw).tiff": {
+   "bytes": 10970,
+   "sha256": "29c2d56c912b7644644509407302f71f970e1cde8fadec06eb735488fe3937d3"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B04_(Raw).tiff": {
+   "bytes": 10954,
+   "sha256": "a37ec39d17d39e5d11d046bc6086250b2200c94441f117682467220c730d7df3"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B05_(Raw).tiff": {
+   "bytes": 10947,
+   "sha256": "a7edbeb8bde8c21b43c32ae0edae11c520c8382e79045aecc37e339c816005ae"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B06_(Raw).tiff": {
+   "bytes": 10928,
+   "sha256": "59e0d1c72ce16d67a9accf54958e767934dbf95a921b0f7e8738ab3a2931bb64"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B07_(Raw).tiff": {
+   "bytes": 10950,
+   "sha256": "392cdc3c64075150e7714ddb21bde9501bf68dee3f21e48ce5cc781c0ef87178"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B08_(Raw).tiff": {
+   "bytes": 10959,
+   "sha256": "aadd5a230444c82b0b801af56aae366f6e27f04f905c470bb2a72f4756f4bb5b"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B09_(Raw).tiff": {
+   "bytes": 10948,
+   "sha256": "34b29871c6f1a23350f4e83caf0c212f74dfac5e2f2cedd83b4147e3738d2bcf"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B10_(Raw).tiff": {
+   "bytes": 10954,
+   "sha256": "73a21f69af4c57cc59f6b0d8bb584aea38478c0b8f6065b37db94eef37a54b8e"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B11_(Raw).tiff": {
+   "bytes": 10957,
+   "sha256": "6da2ca8c785da62d937c1c98a87d36d033f4aeb72c2e82354dda782cedb0f86e"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B12_(Raw).tiff": {
+   "bytes": 10941,
+   "sha256": "1b5dfda3194463f24e51d39d520e3ece76f68ae54f05f7964d9bd83e00dfa364"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B13_(Raw).tiff": {
+   "bytes": 11014,
+   "sha256": "1b2adc358a4d06c2e91af12795de6979ea4dbc500592d2bc4c3a442d8fb2ceb3"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B14_(Raw).tiff": {
+   "bytes": 11009,
+   "sha256": "5ab4aa91349d776cafbd657d9c889351668b9f0f606186a93d46aa2bd290276f"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B15_(Raw).tiff": {
+   "bytes": 10939,
+   "sha256": "709cf4c0e34612cc0aa75631a9d392deee7c7a5e5490197ea693589c639d27f0"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B16_(Raw).tiff": {
+   "bytes": 10957,
+   "sha256": "dea161675cdf3253f49d70659cb70a9cf90e1bf705d9439ad9d490ff4249e5ce"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B17_(Raw).tiff": {
+   "bytes": 10932,
+   "sha256": "1628e3c20ca9070d2a2d247e791bee347165ed994fd5ee249eeb23092ad86942"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B18_(Raw).tiff": {
+   "bytes": 10939,
+   "sha256": "a7fc980a124c0eb7e661bcc3408bb2bf0178329e29c6b5314f74133120f6c8a1"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B19_(Raw).tiff": {
+   "bytes": 10929,
+   "sha256": "78663fc38fbe903dbc3b77f6be523ad32244259b0f285bd161302b39bda2293d"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B20_(Raw).tiff": {
+   "bytes": 10947,
+   "sha256": "e7a14bfc473c71d60d186cc2bab102dee7ba1255c8a920b876ec26c79b7804cd"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_B21_(Raw).tiff": {
+   "bytes": 10931,
+   "sha256": "539294a47ef0b2151353a64f5e1dc2509f420c678d3fd3b0c45fd446e4b72dae"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_Enhanced_Natural_Color.tiff": {
+   "bytes": 30167,
+   "sha256": "bda2bd6fabe8a66997b05e2d8a435ab49791080e915dbc172a0dd2b6a8ff04cc"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_Highlight_Optimized_Natural_Color.tiff": {
+   "bytes": 4919,
+   "sha256": "c110ffb4063067eb051d4cc524dce13b302257c197f3ed7f99334d91319e0df4"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_OTCI.tiff": {
+   "bytes": 33756,
+   "sha256": "4973663695eab8624b309c9a94fb8a62658487f00e454794aefab33b0d85fd42"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_RGB.tiff": {
+   "bytes": 33094,
+   "sha256": "9f29937544cd95307fc262dcd2c4ade96fb3a96ac46fdf1e16be7c4dda8bf5e3"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_Tristimulus.tiff": {
+   "bytes": 32802,
+   "sha256": "12916ad01c171199895d0d821127756a99dd0b3234593ff81505001ee0cd950b"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_OLCI_True_color.tiff": {
+   "bytes": 32115,
+   "sha256": "13cd7e657d2794867793d7c5cb3cf32a9a8fd63eacb5de164d0c20f477ac7eb9"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
