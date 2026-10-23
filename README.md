@@ -25,8 +25,11 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 ### SLSTR L2 (land surface temperature, NDVI)
 
+**Before and after.** On the clear Oct. 15 pass, ground later burned was identical to its surroundings (LST 284.5 K, NDVI 0.29). On the clear Oct. 18 and Oct. 20 passes it was 1.6 K and 2.6 K warmer, with lower NDVI (0.12 vs 0.24; 0.20 vs 0.26). Burned and unburned are taken from the Sentinel-2 matched burn map in the fire archive, so this is an independent check of that map at 1 km.
+
 | Date (UTC) | Product | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-20 | LST + NDVI | 4 | Yes: clear. Confirms Oct. 18: burned ground 2.6 K warmer than unburned (287.9 vs 285.3 K), NDVI lower (0.20 vs 0.26) | [`sentinel-3/SLSTR_L2/2026-10-20/`](sentinel-3/SLSTR_L2/2026-10-20/) |
 | 2026-10-19 | LST + NDVI | 4 | Partly: passes the cloud test, but cooler overall and unburned NDVI fell by half in a day, suggesting thin cloud or haze. Burned ground still has lower NDVI (0.09 vs 0.13). Use Oct. 18 for the before/after | [`sentinel-3/SLSTR_L2/2026-10-19/`](sentinel-3/SLSTR_L2/2026-10-19/) |
 | 2026-10-18 | LST + NDVI | 4 | Yes: clear. Against Oct. 15, the burned ground (by the Sentinel-2 map) went from identical to its surroundings (LST 284.5 K, NDVI 0.29) to 1.6 K warmer with NDVI halved (0.12 vs 0.24) | [`sentinel-3/SLSTR_L2/2026-10-18/`](sentinel-3/SLSTR_L2/2026-10-18/) |
 | 2026-10-17 | LST + NDVI | 4 | No: cloud over the base (fire-area median -9 °C). LST is an 11-12 µm product and shows no fire signal through cloud; the noon heat at the fire is in the L1B mid-infrared channels | [`sentinel-3/SLSTR_L2/2026-10-17/`](sentinel-3/SLSTR_L2/2026-10-17/) |

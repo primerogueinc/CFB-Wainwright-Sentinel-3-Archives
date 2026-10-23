@@ -1,0 +1,91 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-20",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 285.422,
+    "NDVI": 0.2729
+   },
+   "A_range2": {
+    "LST": 287.942,
+    "NDVI": 0.2028
+   },
+   "B_road_head": {
+    "LST": 289.92,
+    "NDVI": 0.166
+   }
+  },
+  "assessment": {
+   "finding": "Clear over the base: fire-area median LST 285.4 K (12.2 \u00b0C).",
+   "fire_area_median_K": 285.4,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 285.4,
+     "NDVI": 0.273
+    },
+    "A_range2": {
+     "LST_K": 287.9,
+     "NDVI": 0.203
+    },
+    "B_road_head": {
+     "LST_K": 289.9,
+     "NDVI": 0.166
+    }
+   },
+   "burned_vs_unburned": {
+    "LST_K_burned": 287.9,
+    "LST_K_unburned": 285.3,
+    "NDVI_burned": 0.203,
+    "NDVI_unburned": 0.259
+   }
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "480c6a80-Browser_images_24.zip",
+ "original_upload_sha256": "0daca367dc7640b10ff216c204eb705eeabb5282c23bd5886553b0a4483c63ad",
+ "files": {
+  "2026-10-20-00_00_2026-10-20-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 49676,
+   "sha256": "a224cbb8f4e404ef89d41b503aa9fc46d7765bba6d6fe778e7ca6b8a3ee6a9a6"
+  },
+  "2026-10-20-00_00_2026-10-20-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 21752,
+   "sha256": "b359638533bf1623fc165bc3c7bf2db7e81d13a2c6ebc8f2b58800f1730d6578"
+  },
+  "2026-10-20-00_00_2026-10-20-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 19329,
+   "sha256": "62bc31129fa62ebcf20bb7644fb4115322f99afc79c77772c0651f3c3c87e63e"
+  },
+  "2026-10-20-00_00_2026-10-20-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 23327,
+   "sha256": "900d6872f7c87d988372d382ebf1930cad5555a9ebcca2cfc8bbdc589e12a899"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
