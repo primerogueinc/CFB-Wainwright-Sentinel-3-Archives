@@ -41,7 +41,7 @@
    }
   },
   "assessment": {
-   "finding": "Clear over the base: fire-area median LST 268.5 K (-4.7 \u00b0C).",
+   "finding": "Cloud over the base (fire-area median 268.5 K, -5 \u00b0C); values are cloud tops, not usable.",
    "fire_area_median_K": 268.5,
    "values_at_points": {
     "origin": {
@@ -58,7 +58,7 @@
     }
    }
   },
-  "usable": true
+  "usable": false
  },
  "previews": [],
  "original_upload": "385b6b12-Browser_images_16.zip",

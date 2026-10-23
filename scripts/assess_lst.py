@@ -14,7 +14,7 @@ i0, j0 = r.index(-110.98, 52.81); i1, j1 = r.index(-110.82, 52.73); box = a[max(
 v = box[(box > 200) & (box < 350)]
 med = float(np.median(v)) if len(v) else float("nan")
 nb = n[max(i0, 0):i1 + 1, max(j0, 0):j1 + 1] if n is not None else None
-cloud = (med < 268) or (nb is not None and np.nanmedian(nb) < 0.08 and med < 275)
+cloud = med < 275  # midday surface below ~2 °C in mid-October with air at 15-20 °C means cloud tops
 f = ("Cloud over the base (fire-area median %.1f K, %.0f °C); values are cloud tops, not usable." % (med, med - 273.15)) if cloud else \
     ("Clear over the base: fire-area median LST %.1f K (%.1f °C)." % (med, med - 273.15))
 m = json.load(open(D + "manifest.json")); m["qa"]["assessment"] = {"finding": f, "fire_area_median_K": round(med, 1), "values_at_points": vals}
