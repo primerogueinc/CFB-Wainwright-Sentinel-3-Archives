@@ -1,0 +1,211 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-21",
+ "instrument": "SLSTR",
+ "note": "",
+ "layers": [
+  "F1_(Raw)",
+  "F1_Brightness_Temperature",
+  "F2_(Raw)",
+  "F2_Brightness_Temperature",
+  "False_Color",
+  "S1_(Raw)",
+  "S1_Reflectance_",
+  "S2_(Raw)",
+  "S2_Reflectance_",
+  "S3_(Raw)",
+  "S3_Reflectance_",
+  "S4_(Raw)",
+  "S4_Reflectance_",
+  "S5_(Raw)",
+  "S5_Reflectance_",
+  "S6_(Raw)",
+  "S6_Reflectance_",
+  "S7_(Raw)",
+  "S7_Brightness_Temperature_",
+  "S8_(Raw)",
+  "S8_Brightness_Temperature_",
+  "S9_(Raw)",
+  "S9_Brightness_Temperature_"
+ ],
+ "n_files": 23,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "F1": 290.48,
+    "F2": 287.17,
+    "S1": 0.0661,
+    "S2": 0.0605,
+    "S3": 0.0712,
+    "S4": -0.0009,
+    "S5": 0.1338,
+    "S6": 0.1173,
+    "S7": 291.77,
+    "S8": 287.24,
+    "S9": 287.37
+   },
+   "A_range2": {
+    "F1": 296.92,
+    "F2": 290.2,
+    "S1": 0.0744,
+    "S2": 0.0724,
+    "S3": 0.1001,
+    "S4": 0.0023,
+    "S5": 0.1775,
+    "S6": 0.1321,
+    "S7": 294.78,
+    "S8": 290.23,
+    "S9": 290.03
+   },
+   "B_road_head": {
+    "F1": 296.64,
+    "F2": 289.19,
+    "S1": 0.0865,
+    "S2": 0.0892,
+    "S3": 0.1535,
+    "S4": 0.0021,
+    "S5": 0.2334,
+    "S6": 0.1422,
+    "S7": 293.21,
+    "S8": 289.23,
+    "S9": 288.86
+   }
+  },
+  "assessment": {
+   "pass": "day",
+   "S8_median_K": 286.1,
+   "cold_cloud_frac": 0.0,
+   "hot_pixels_in_fire_area": [],
+   "at_points": {
+    "origin": {
+     "S7_K": 291.8,
+     "F1_K": 290.5,
+     "S8_K": 287.2,
+     "local_MIR_median_K": 291.8
+    },
+    "B_road_head": {
+     "S7_K": 293.2,
+     "F1_K": 296.6,
+     "S8_K": 289.2,
+     "local_MIR_median_K": 293.2
+    }
+   },
+   "usable": true,
+   "finding": "Day pass. Clear (0% cold cloud). No hot pixels: no active fire."
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "7d529b1d-Browser_images_35.zip",
+ "original_upload_sha256": "0d44dfc9d589176ea3a7599b95629447b3cae5e8f828c74ddee9247061508b2c",
+ "files": {
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_F1_(Raw).tiff": {
+   "bytes": 21930,
+   "sha256": "f407328573dcd3e302629e67dabf458a83e6819230674f18de8cd98525d89c89"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_F1_Brightness_Temperature.tiff": {
+   "bytes": 42771,
+   "sha256": "774096034651027b48a2e6eeea8671ec8a11d643b64efbdd310cc760edce8712"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_F2_(Raw).tiff": {
+   "bytes": 22676,
+   "sha256": "8ebcf5e7e576d9358f8b5987caddd6fc90f943459cbd402da5168d58fad41914"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_F2_Brightness_Temperature.tiff": {
+   "bytes": 48571,
+   "sha256": "67d762fd556b68762e6a9c46759fe4d1900c48e886321103975a8cb9da1d1406"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_False_Color.tiff": {
+   "bytes": 118829,
+   "sha256": "e94ac601c54a4bf2fe38c8ead09ff444e890a5ac16e33acc03f018b67d18647a"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S1_(Raw).tiff": {
+   "bytes": 49794,
+   "sha256": "359c162510123c934e0159cf120391a1fc474e4d05b2ee01d1e89f04cc00f79c"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S1_Reflectance_.tiff": {
+   "bytes": 56805,
+   "sha256": "8e575161a55852952db3528ba3bd2014e75e963e24f43369abd750cc37eca0b1"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S2_(Raw).tiff": {
+   "bytes": 50367,
+   "sha256": "d486e56712f6dadf7645a04d4eb51d37a8280dceb35d7a97175e71886871ff8a"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S2_Reflectance_.tiff": {
+   "bytes": 57401,
+   "sha256": "95f3e4df2a8cc954092c5df34010274516e5c913925ea06a675967fc41ca26f5"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S3_(Raw).tiff": {
+   "bytes": 49903,
+   "sha256": "0baec49dd357125ee08fdd237129d3f91fbb2fda601defa9c794d4d1ad75d770"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S3_Reflectance_.tiff": {
+   "bytes": 56889,
+   "sha256": "f4bed496e987a0c70aadf9fa42948d111ae66fccc4d5aee8af5e74e84511bf08"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S4_(Raw).tiff": {
+   "bytes": 53589,
+   "sha256": "2c0b9b62c861e3316cdfcafb48e3e07e1658afe7da08257ba743ff8b814e00e9"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S4_Reflectance_.tiff": {
+   "bytes": 61515,
+   "sha256": "fddcd795006a233680965add0cb0ad38a4855d8799b31aeea810219258db1622"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S5_(Raw).tiff": {
+   "bytes": 49631,
+   "sha256": "93a23ac20b773d56ca9e68967c5a7295575a66eb47050d438937cf9dddfd92bb"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S5_Reflectance_.tiff": {
+   "bytes": 56351,
+   "sha256": "61f1d6edec18d6152814dc7891578c0c960086e1bad4d1b4492ba24dee6c5821"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S6_(Raw).tiff": {
+   "bytes": 51218,
+   "sha256": "5c9b9b37b16b9d74c04c2fb0c83c425843b700b33bdc4dc9ef5ecddf3dbecfd4"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S6_Reflectance_.tiff": {
+   "bytes": 58458,
+   "sha256": "0ec84fb6873c0729b316d4993ca2b4eefc94a24459d37cadd90152ad97f7e84f"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S7_(Raw).tiff": {
+   "bytes": 22993,
+   "sha256": "4887458a22713a6d36712a6de9e24495f47881ffddf26a7eeda2d81f802eaeed"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S7_Brightness_Temperature_.tiff": {
+   "bytes": 49858,
+   "sha256": "ed488ec93bd75698663b7e1be5796f6a0c2bc28c41dd3b82e68edbc3506cff89"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S8_(Raw).tiff": {
+   "bytes": 22637,
+   "sha256": "7ea6edc8a89823b26222d48a488dbd62504ec32027e502d78506a731eebda7bd"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S8_Brightness_Temperature_.tiff": {
+   "bytes": 48531,
+   "sha256": "d1a99662e6eb27748addfb45d7fe6ba6d2290487335ae6a61c18520da750d6de"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S9_(Raw).tiff": {
+   "bytes": 22617,
+   "sha256": "4cd0b55b1aa85a57e82a3bd9b737c966f320949caf57fd20334a8a8124264181"
+  },
+  "2026-10-21-00_00_2026-10-21-23_59_Sentinel-3_SLSTR_S9_Brightness_Temperature_.tiff": {
+   "bytes": 48613,
+   "sha256": "86d5e466c5aa611138dd2fcccd30cc100a04991607455bdb2f81dfc5e73178d5"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
