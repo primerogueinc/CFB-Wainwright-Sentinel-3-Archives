@@ -14,6 +14,7 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 | Date (UTC) | Instrument | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-20 | SLSTR L1B (day) | 23 | Yes: clear. No active fire | [`sentinel-3/SLSTR/2026-10-20/`](sentinel-3/SLSTR/2026-10-20/) |
 | 2026-10-19 | SLSTR L1B (day) | 23 | Yes: mostly clear. No active fire | [`sentinel-3/SLSTR/2026-10-19/`](sentinel-3/SLSTR/2026-10-19/) |
 | 2026-10-18 | SLSTR L1B (day) | 23 | Yes: clear. No active fire. Burn scar visible (near-infrared halved, surface ~1.6 K warmer) | [`sentinel-3/SLSTR/2026-10-18/`](sentinel-3/SLSTR/2026-10-18/) |
 | 2026-10-17 | SLSTR L1B (day) | 23 | Yes, with limits: heat at the fire seen through thin cloud. Strongest anomalies in the frame at the origin (S7 +17 K) and about 1.5 km east-southeast (F1 +18 K); 1 km pixels | [`sentinel-3/SLSTR/2026-10-17/`](sentinel-3/SLSTR/2026-10-17/) |
