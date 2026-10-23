@@ -1,0 +1,85 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-15",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 284.61,
+    "NDVI": 0.216
+   },
+   "A_range2": {
+    "LST": 284.88,
+    "NDVI": 0.2903
+   },
+   "B_road_head": {
+    "LST": 284.88,
+    "NDVI": 0.2903
+   }
+  },
+  "assessment": {
+   "finding": "Clear over the base: fire-area median LST 284.5 K (11.3 \u00b0C).",
+   "fire_area_median_K": 284.5,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 284.6,
+     "NDVI": 0.216
+    },
+    "A_range2": {
+     "LST_K": 284.9,
+     "NDVI": 0.29
+    },
+    "B_road_head": {
+     "LST_K": 284.9,
+     "NDVI": 0.29
+    }
+   }
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "086c0cc9-Browser_images_15.zip",
+ "original_upload_sha256": "580f58cb9e0d4dfdbacba5b2aca69eee56a10ac41cbdcd6164a949d7368d7b03",
+ "files": {
+  "2026-10-15-00_00_2026-10-15-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 50821,
+   "sha256": "f6570e2ffbcc685d310d349e7f9c6af07cd2f58ab7998eaec820ec05bc7bc342"
+  },
+  "2026-10-15-00_00_2026-10-15-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 22350,
+   "sha256": "1aee7a0417842ba798b1b357e6d2896fe9683c200bf4676aa7a72cabc38b7335"
+  },
+  "2026-10-15-00_00_2026-10-15-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 21422,
+   "sha256": "3464906a1803bf1259baeb235d39f3ad840a6406979194bd7fa93a3e8106203f"
+  },
+  "2026-10-15-00_00_2026-10-15-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 24042,
+   "sha256": "165c112b014f7cc620ed82f3862474abec4d200799028092934df223e113604a"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}

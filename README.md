@@ -27,6 +27,7 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 | Date (UTC) | Product | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-15 | LST + NDVI | 4 | Yes: clear. Pre-fire baseline (fire area about 11 °C, NDVI 0.22-0.29) | [`sentinel-3/SLSTR_L2/2026-10-15/`](sentinel-3/SLSTR_L2/2026-10-15/) |
 | 2026-10-14 | LST + NDVI | 4 | No: cloud over the base (values are cloud tops, about -20 °C) | [`sentinel-3/SLSTR_L2/2026-10-14/`](sentinel-3/SLSTR_L2/2026-10-14/) |
 
 Earlier OLCI exports for Oct. 4, 16, 17 and 18 (fewer bands) are in the fire archive under [`data/copernicus/manual_exports/sentinel3_olci`](https://github.com/primerogueinc/cfb-wainwright-fire-archive/tree/authentic-stoic-alternative-hypothesis/data/copernicus/manual_exports/sentinel3_olci).

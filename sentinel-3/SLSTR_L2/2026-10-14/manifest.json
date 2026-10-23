@@ -41,7 +41,22 @@
    }
   },
   "assessment": {
-   "finding": "Cloud over the base: LST about 252-254 K (-20 \u00b0C) and NDVI 0.03 at the origin, Range 2 and the road head, against a frame median of 273 K. Cloud is not masked in this export, so these are cloud-top temperatures. Not usable as a pre-fire baseline."
+   "finding": "Cloud over the base (fire-area median 254.5 K, -19 \u00b0C); values are cloud tops, not usable.",
+   "fire_area_median_K": 254.5,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 252.5,
+     "NDVI": 0.031
+    },
+    "A_range2": {
+     "LST_K": 252.5,
+     "NDVI": 0.031
+    },
+    "B_road_head": {
+     "LST_K": 253.5,
+     "NDVI": 0.0
+    }
+   }
   },
   "usable": false
  },
