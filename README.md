@@ -12,6 +12,7 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 | Date (UTC) | Instrument | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-17 | SLSTR L1B (day) | 23 | Yes, with limits: heat at the fire seen through thin cloud. Strongest anomalies in the frame at the origin (S7 +17 K) and about 1.5 km east-southeast (F1 +18 K); 1 km pixels | [`sentinel-3/SLSTR/2026-10-17/`](sentinel-3/SLSTR/2026-10-17/) |
 | 2026-10-16 | SLSTR L1B (day) | 23 (S1-S9, F1, F2 + layers) | No: cloud over the whole frame (11 µm brightness temperature below 270 K everywhere, cloud tops near -16 °C); no fire signal possible | [`sentinel-3/SLSTR/2026-10-16/`](sentinel-3/SLSTR/2026-10-16/) |
 | 2026-10-16 | OLCI | 27 (21 bands + 6 layers) | No: cloud over the base | [`sentinel-3/OLCI/2026-10-16/`](sentinel-3/OLCI/2026-10-16/) |
 

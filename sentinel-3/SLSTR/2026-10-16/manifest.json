@@ -86,7 +86,27 @@
     "S9": 255.2
    }
   },
-  "assessment": "Day pass. Whole frame under cold cloud: S8 (10.8 um) below 270 K everywhere, median 257 K. No surface or fire signal.",
+  "assessment": {
+   "pass": "day",
+   "S8_median_K": 257.3,
+   "cold_cloud_frac": 1.0,
+   "hot_pixels_in_fire_area": [],
+   "at_points": {
+    "origin": {
+     "S7_K": 287.5,
+     "F1_K": 285.9,
+     "S8_K": 259.2,
+     "local_MIR_median_K": 287.5
+    },
+    "B_road_head": {
+     "S7_K": 288.0,
+     "F1_K": 287.3,
+     "S8_K": 260.7,
+     "local_MIR_median_K": 287.9
+    }
+   },
+   "usable": false
+  },
   "usable": false
  },
  "previews": [],
