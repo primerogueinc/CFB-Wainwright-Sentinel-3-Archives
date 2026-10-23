@@ -1,0 +1,92 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-19",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 276.492,
+    "NDVI": 0.089
+   },
+   "A_range2": {
+    "LST": 276.876,
+    "NDVI": 0.0811
+   },
+   "B_road_head": {
+    "LST": 276.604,
+    "NDVI": 0.1077
+   }
+  },
+  "assessment": {
+   "finding": "Clear over the base: fire-area median LST 280.0 K (6.8 \u00b0C).",
+   "fire_area_median_K": 280.0,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 276.5,
+     "NDVI": 0.089
+    },
+    "A_range2": {
+     "LST_K": 276.9,
+     "NDVI": 0.081
+    },
+    "B_road_head": {
+     "LST_K": 276.6,
+     "NDVI": 0.108
+    }
+   },
+   "burned_vs_unburned": {
+    "LST_K_burned": 277.9,
+    "LST_K_unburned": 279.2,
+    "NDVI_burned": 0.093,
+    "NDVI_unburned": 0.126,
+    "note": "Passes the cloud test, but the whole area is about 4.5 K cooler than Oct. 18 and unburned NDVI dropped from 0.24 to 0.13 in a day, which points to thin cloud or haze or a very different viewing angle. The burned-unburned contrast is weaker and the temperature difference reverses. Lower confidence than Oct. 18."
+   }
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "78095693-Browser_images_19.zip",
+ "original_upload_sha256": "d27e6a1474c651913d9a629dc6c65fb3fa37b5142f6e75daf51db1668f529d63",
+ "files": {
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 51507,
+   "sha256": "2d0949e69ed2177c73debc96bf026ba41b10f96957d8399444adb15af72b487f"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 23093,
+   "sha256": "6947df2a50e32cdad76d1c79d77752a19ca229686836b495da9ff2809ceac468"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 21819,
+   "sha256": "e5ac0d50f7e0a0f670bf39b479466b79e153e367870914f099c1f600887b1e89"
+  },
+  "2026-10-19-00_00_2026-10-19-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 24832,
+   "sha256": "8ef00fa4dc17abde7d9cbc551b570d992fb4537c581e1c7aaa5c2392f4d85e19"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
