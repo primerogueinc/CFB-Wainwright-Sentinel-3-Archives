@@ -1,0 +1,211 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-18",
+ "instrument": "SLSTR",
+ "note": "",
+ "layers": [
+  "F1_(Raw)",
+  "F1_Brightness_Temperature",
+  "F2_(Raw)",
+  "F2_Brightness_Temperature",
+  "False_Color",
+  "S1_(Raw)",
+  "S1_Reflectance_",
+  "S2_(Raw)",
+  "S2_Reflectance_",
+  "S3_(Raw)",
+  "S3_Reflectance_",
+  "S4_(Raw)",
+  "S4_Reflectance_",
+  "S5_(Raw)",
+  "S5_Reflectance_",
+  "S6_(Raw)",
+  "S6_Reflectance_",
+  "S7_(Raw)",
+  "S7_Brightness_Temperature_",
+  "S8_(Raw)",
+  "S8_Brightness_Temperature_",
+  "S9_(Raw)",
+  "S9_Brightness_Temperature_"
+ ],
+ "n_files": 23,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "F1": 289.34,
+    "F2": 285.31,
+    "S1": 0.088,
+    "S2": 0.0788,
+    "S3": 0.0994,
+    "S4": 0.0002,
+    "S5": 0.1706,
+    "S6": 0.1395,
+    "S7": 290.71,
+    "S8": 285.48,
+    "S9": 284.97
+   },
+   "A_range2": {
+    "F1": 290.53,
+    "F2": 287.48,
+    "S1": 0.09,
+    "S2": 0.0783,
+    "S3": 0.1036,
+    "S4": 0.0007,
+    "S5": 0.1847,
+    "S6": 0.1409,
+    "S7": 293.53,
+    "S8": 287.43,
+    "S9": 286.9
+   },
+   "B_road_head": {
+    "F1": 293.2,
+    "F2": 286.27,
+    "S1": 0.1019,
+    "S2": 0.0908,
+    "S3": 0.1352,
+    "S4": 0.0009,
+    "S5": 0.2213,
+    "S6": 0.1584,
+    "S7": 290.33,
+    "S8": 286.27,
+    "S9": 285.63
+   }
+  },
+  "assessment": {
+   "pass": "day",
+   "S8_median_K": 284.6,
+   "cold_cloud_frac": 0.0,
+   "hot_pixels_in_fire_area": [],
+   "at_points": {
+    "origin": {
+     "S7_K": 290.7,
+     "F1_K": 289.3,
+     "S8_K": 285.5,
+     "local_MIR_median_K": 290.7
+    },
+    "B_road_head": {
+     "S7_K": 290.3,
+     "F1_K": 293.2,
+     "S8_K": 286.3,
+     "local_MIR_median_K": 293.2
+    }
+   },
+   "usable": true,
+   "finding": "Clear day pass, no cloud. No hot pixels: no active fire at pass time. The burn scar shows: over ground mapped burned by Sentinel-2, near-infrared reflectance (S3) is about half that of unburned ground (0.10 vs 0.19), S5 is lower (0.19 vs 0.25), and the surface is about 1.6 K warmer (S8). Earliest clear post-fire thermal view in the archive. Acquisition time not in the export."
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "e5d011d1-Browser_images_30.zip",
+ "original_upload_sha256": "65fcc9047947f9d58d20a6f5db3dad9277c4de6b86eeed762ed508533798987a",
+ "files": {
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_F1_(Raw).tiff": {
+   "bytes": 19001,
+   "sha256": "203f87824484afc6ba1b5e06adfe45f8066787763ef7567da314b488bd183ba8"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_F1_Brightness_Temperature.tiff": {
+   "bytes": 39350,
+   "sha256": "7fc12256d255f8a4b69cfccf7f584efb3dcbff07cc113c62c73fa55ccd2b0110"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_F2_(Raw).tiff": {
+   "bytes": 19306,
+   "sha256": "2de3c1ee4282516098148ae224b8053ad73214d75aa0d9df4ad1818983072e31"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_F2_Brightness_Temperature.tiff": {
+   "bytes": 41585,
+   "sha256": "dfaf5520d78ef4e011465764170e781bc073ce941b0b753a2359f1f017d56ac5"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_False_Color.tiff": {
+   "bytes": 115856,
+   "sha256": "b876a849dd9de42e9d58002c1b420415d38512192acc93b3a0fdbfb24aed0cb8"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S1_(Raw).tiff": {
+   "bytes": 49503,
+   "sha256": "096f17c2bafc7ea8aaa79f90a8fb467e0fc13ea9d01a918db5e4b0f9309e8528"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S1_Reflectance_.tiff": {
+   "bytes": 55640,
+   "sha256": "bcfbab1b2149c63917a1b138e14cc8dbedebdd93a3214600c43398381e339e3c"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S2_(Raw).tiff": {
+   "bytes": 49889,
+   "sha256": "97d019ea83c027c3293dd4be18d0bd5a960871517b89ba916b216d7fab8a0e93"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S2_Reflectance_.tiff": {
+   "bytes": 56025,
+   "sha256": "8eb4698ea2a6968d34187cf62e6c0fe5a21f16bb2d1357513cb4eed5ab2cf14f"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S3_(Raw).tiff": {
+   "bytes": 48956,
+   "sha256": "5d77fcdfabbdfd9b4fa01ea95896e30f3675cbd31a8ae87fc2058b279d21bc51"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S3_Reflectance_.tiff": {
+   "bytes": 54897,
+   "sha256": "a0bec0db551f792f46349d21c41c65dec9a8bcb0c1537e5c2762aaa288921a3c"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S4_(Raw).tiff": {
+   "bytes": 52632,
+   "sha256": "1d266720ea74f9a66ae38ee3dca6c009171d7b8f3a1d3621c5269cabc6694fcc"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S4_Reflectance_.tiff": {
+   "bytes": 59534,
+   "sha256": "fc894e04f91bfd77f462f28fe633f83f5bbf9a7b791ed247ed3d78e660e44570"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S5_(Raw).tiff": {
+   "bytes": 48729,
+   "sha256": "ee533aabf7c67303ab0eeae4d4e458ceb7aa3cea95d3e94d1719fe43a2f913e3"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S5_Reflectance_.tiff": {
+   "bytes": 54668,
+   "sha256": "e513fa3874cb685519c5d2a140cb58a83e872b66fe98217b53e54db85c29122b"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S6_(Raw).tiff": {
+   "bytes": 49341,
+   "sha256": "81584bac96fdf0893442d91671058a3027dba181ce7e0d4ff9142be615880234"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S6_Reflectance_.tiff": {
+   "bytes": 55403,
+   "sha256": "80df6c3e9105317a9d8a3a1b4c874cdda73dacf8ca15e5a95176c15dbe3efcf0"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S7_(Raw).tiff": {
+   "bytes": 19742,
+   "sha256": "1cdfecd9d5077b511565dd381aab776351589208873de3120084c3b3a4ff98f2"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S7_Brightness_Temperature_.tiff": {
+   "bytes": 44019,
+   "sha256": "feb480b5e3b97ddee722dcd99e9e694ac776f85462120f4a9c1c493c57f363c7"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S8_(Raw).tiff": {
+   "bytes": 19257,
+   "sha256": "f709bbd2e63e6f16f7b07cb2ca6ab06b813cce5250654f5ed56749d4974fd7cf"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S8_Brightness_Temperature_.tiff": {
+   "bytes": 41452,
+   "sha256": "624f9fb781773fcd020edecea187d64398b784fbc14d68c760330177a2fc9873"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S9_(Raw).tiff": {
+   "bytes": 19361,
+   "sha256": "4e5244317497a1c58097846f06e496b4255a0966bd8605ecb2d4905dc7a50ae5"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_S9_Brightness_Temperature_.tiff": {
+   "bytes": 41184,
+   "sha256": "400e790a130e654570e59536a0df14759e2bf3902347c1dbe2e1be29dbe61ac9"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
