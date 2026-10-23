@@ -27,6 +27,7 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 | Date (UTC) | Product | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-18 | LST + NDVI | 4 | Yes: clear. Against Oct. 15, the burned ground (by the Sentinel-2 map) went from identical to its surroundings (LST 284.5 K, NDVI 0.29) to 1.6 K warmer with NDVI halved (0.12 vs 0.24) | [`sentinel-3/SLSTR_L2/2026-10-18/`](sentinel-3/SLSTR_L2/2026-10-18/) |
 | 2026-10-17 | LST + NDVI | 4 | No: cloud over the base (fire-area median -9 °C). LST is an 11-12 µm product and shows no fire signal through cloud; the noon heat at the fire is in the L1B mid-infrared channels | [`sentinel-3/SLSTR_L2/2026-10-17/`](sentinel-3/SLSTR_L2/2026-10-17/) |
 | 2026-10-16 | LST + NDVI | 4 | No: Cloud over the base (fire-area median 268.5 K, -5 °C); values are cloud tops, not usable. NDVI 0.11-0.12, half of Oct. 15 | [`sentinel-3/SLSTR_L2/2026-10-16/`](sentinel-3/SLSTR_L2/2026-10-16/) |
 | 2026-10-15 | LST + NDVI | 4 | Yes: clear. Pre-fire baseline (fire area about 11 °C, NDVI 0.22-0.29) | [`sentinel-3/SLSTR_L2/2026-10-15/`](sentinel-3/SLSTR_L2/2026-10-15/) |

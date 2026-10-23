@@ -1,0 +1,100 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-18",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 285.262,
+    "NDVI": 0.2603
+   },
+   "A_range2": {
+    "LST": 287.26,
+    "NDVI": 0.1213
+   },
+   "B_road_head": {
+    "LST": 286.274,
+    "NDVI": 0.1434
+   }
+  },
+  "assessment": {
+   "finding": "Clear over the base: fire-area median LST 284.4 K (11.2 \u00b0C).",
+   "fire_area_median_K": 284.4,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 285.3,
+     "NDVI": 0.26
+    },
+    "A_range2": {
+     "LST_K": 287.3,
+     "NDVI": 0.121
+    },
+    "B_road_head": {
+     "LST_K": 286.3,
+     "NDVI": 0.143
+    }
+   },
+   "before_after_vs_oct15": {
+    "note": "Grouped by Sentinel-2 matched burn map (dNBR >= 0.27 burned, < 0.05 unburned), 1 km SLSTR pixels resampled to the 10 m grid.",
+    "oct15": {
+     "LST_K_burned": 284.5,
+     "LST_K_unburned": 284.5,
+     "NDVI_burned": 0.287,
+     "NDVI_unburned": 0.287
+    },
+    "oct18": {
+     "LST_K_burned": 286.0,
+     "LST_K_unburned": 284.4,
+     "NDVI_burned": 0.121,
+     "NDVI_unburned": 0.241
+    }
+   }
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "5f088931-Browser_images_18.zip",
+ "original_upload_sha256": "015e492eb07e23bd9a0ed1187d5c137ca941801633b7e15a640d47a7483bb15a",
+ "files": {
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 45361,
+   "sha256": "b144f866601a2fc1a1f43801f9c76cf3316b81be7aa64f6708145648273bcc3a"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 20264,
+   "sha256": "3a25a6ecab1da5e95a16781101d498162e48cf69f9f35ff95941e7e43fde3d15"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 18095,
+   "sha256": "a3cf799112aaf758e8b3076ae6d1882ea758bf02574d7927ed7af90c08d309eb"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 22203,
+   "sha256": "09ed73c0071e7d68af75337c9629b283356f3b658c1e7010493df45bf36b077f"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
