@@ -10,10 +10,11 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 ## Exports
 
-**Pass times.** Copernicus Browser exports carry only the UTC date; the time of the pass is not in the files. Times noted from the Browser are recorded in each manifest where available.
+**Pass times.** Copernicus Browser exports carry only the UTC date; the time of the pass is not in the files. `pass_times.csv` lists every Sentinel-3A and 3B pass over the base from Oct. 10 to 25, predicted from published orbital elements by `scripts/pass_times.py` (S3B times may be off by up to about a minute). Day passes are late morning to early afternoon MDT; night passes 10-11 p.m. MDT, dated the next day in UTC. On Oct. 17 the day passes were at 11:33 a.m. (S3B, base near the swath edge) and **12:11 p.m. MDT (S3A, almost directly overhead)**. A day export is a mosaic of that UTC day's day passes; which pass a given pixel comes from is not recorded.
 
 | Date (UTC) | Instrument | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-19 | SLSTR L1B (day) | 23 | Yes: mostly clear. No active fire | [`sentinel-3/SLSTR/2026-10-19/`](sentinel-3/SLSTR/2026-10-19/) |
 | 2026-10-18 | SLSTR L1B (day) | 23 | Yes: clear. No active fire. Burn scar visible (near-infrared halved, surface ~1.6 K warmer) | [`sentinel-3/SLSTR/2026-10-18/`](sentinel-3/SLSTR/2026-10-18/) |
 | 2026-10-17 | SLSTR L1B (day) | 23 | Yes, with limits: heat at the fire seen through thin cloud. Strongest anomalies in the frame at the origin (S7 +17 K) and about 1.5 km east-southeast (F1 +18 K); 1 km pixels | [`sentinel-3/SLSTR/2026-10-17/`](sentinel-3/SLSTR/2026-10-17/) |
 | 2026-10-16 | SLSTR L1B (day) | 23 (S1-S9, F1, F2 + layers) | No: cloud over the whole frame (11 µm brightness temperature below 270 K everywhere, cloud tops near -16 °C); no fire signal possible | [`sentinel-3/SLSTR/2026-10-16/`](sentinel-3/SLSTR/2026-10-16/) |
