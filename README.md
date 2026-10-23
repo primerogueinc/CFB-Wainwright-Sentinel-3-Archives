@@ -14,6 +14,7 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 | Date (UTC) | Instrument | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-22 | SLSTR L1B (day) | 23 | Yes: Day pass. Clear (0% cold cloud). No hot pixels: no active fire. | [`sentinel-3/SLSTR/2026-10-22/`](sentinel-3/SLSTR/2026-10-22/) |
 | 2026-10-21 | SLSTR L1B (day) | 23 | Yes: Day pass. Clear (0% cold cloud). No hot pixels: no active fire. | [`sentinel-3/SLSTR/2026-10-21/`](sentinel-3/SLSTR/2026-10-21/) |
 | 2026-10-20 | SLSTR L1B (day) | 23 | Yes: clear. No active fire | [`sentinel-3/SLSTR/2026-10-20/`](sentinel-3/SLSTR/2026-10-20/) |
 | 2026-10-19 | SLSTR L1B (day) | 23 | Yes: mostly clear. No active fire | [`sentinel-3/SLSTR/2026-10-19/`](sentinel-3/SLSTR/2026-10-19/) |
