@@ -1,0 +1,85 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-17",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 263.432,
+    "NDVI": 0.075
+   },
+   "A_range2": {
+    "LST": 263.672,
+    "NDVI": 0.073
+   },
+   "B_road_head": {
+    "LST": 263.672,
+    "NDVI": 0.073
+   }
+  },
+  "assessment": {
+   "finding": "Cloud over the base (fire-area median 264.0 K, -9 \u00b0C); values are cloud tops, not usable.",
+   "fire_area_median_K": 264.0,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 263.4,
+     "NDVI": 0.075
+    },
+    "A_range2": {
+     "LST_K": 263.7,
+     "NDVI": 0.073
+    },
+    "B_road_head": {
+     "LST_K": 263.7,
+     "NDVI": 0.073
+    }
+   }
+  },
+  "usable": false
+ },
+ "previews": [],
+ "original_upload": "c0655031-Browser_images_17.zip",
+ "original_upload_sha256": "768c9f65d7a1b87802a66635cd9ca068779c810f7ad02bb54794837b2c4d3c64",
+ "files": {
+  "2026-10-17-00_00_2026-10-17-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 45844,
+   "sha256": "fa6b11b4777a98632700c55c8d9832a39c4dcbe4ca2198717646ef644a4987f8"
+  },
+  "2026-10-17-00_00_2026-10-17-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 24282,
+   "sha256": "6738e950784fa5881a9716f7f2f153979d90c96c2c3dd9bb0b161008205bd27b"
+  },
+  "2026-10-17-00_00_2026-10-17-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 11978,
+   "sha256": "13ef2603ee589c0e990de1e7c34fa053c7714688c74bd3869942d7afd26c3ac3"
+  },
+  "2026-10-17-00_00_2026-10-17-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 25143,
+   "sha256": "cbe8d3d70278c069a7d0e471276478fda864df649498c6b0503b5780ca9d4de5"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
