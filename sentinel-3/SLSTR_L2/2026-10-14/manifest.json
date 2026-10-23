@@ -1,0 +1,70 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-14",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 252.522,
+    "NDVI": 0.0312
+   },
+   "A_range2": {
+    "LST": 252.522,
+    "NDVI": 0.0312
+   },
+   "B_road_head": {
+    "LST": 253.53,
+    "NDVI": 0.0004
+   }
+  },
+  "assessment": {
+   "finding": "Cloud over the base: LST about 252-254 K (-20 \u00b0C) and NDVI 0.03 at the origin, Range 2 and the road head, against a frame median of 273 K. Cloud is not masked in this export, so these are cloud-top temperatures. Not usable as a pre-fire baseline."
+  },
+  "usable": false
+ },
+ "previews": [],
+ "original_upload": "7b1ccc4a-Browser_images_38.zip",
+ "original_upload_sha256": "8020f3f91c1803d41fe2765a7c9aa164af119503292c43a2b6d9978ee96eee7a",
+ "files": {
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 44089,
+   "sha256": "08d6ddf6183e1bdd47f07f56df637dd9991250e51d02201217271b08f80315b1"
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 21792,
+   "sha256": "9d522e0c82adc634d151eec4c749ccfa6067ee75f84f740fc37b8ddbd28976de"
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 22963,
+   "sha256": "6d99425cafcb0ac79aaadd6825feaa7dec54101f399fbf1ca4c1de6368a290d6"
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 23255,
+   "sha256": "abed764f072940726f0b9fcfba394fba24125da49ede026db157ba39695daadb"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}

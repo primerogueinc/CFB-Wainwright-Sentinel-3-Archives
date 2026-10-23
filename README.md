@@ -23,6 +23,12 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 | 2026-10-16 | SLSTR L1B (day) | 23 (S1-S9, F1, F2 + layers) | No: cloud over the whole frame (11 µm brightness temperature below 270 K everywhere, cloud tops near -16 °C); no fire signal possible | [`sentinel-3/SLSTR/2026-10-16/`](sentinel-3/SLSTR/2026-10-16/) |
 | 2026-10-16 | OLCI | 27 (21 bands + 6 layers) | No: cloud over the base | [`sentinel-3/OLCI/2026-10-16/`](sentinel-3/OLCI/2026-10-16/) |
 
+### SLSTR L2 (land surface temperature, NDVI)
+
+| Date (UTC) | Product | Files | Usable | Folder |
+|---|---|---|---|---|
+| 2026-10-14 | LST + NDVI | 4 | No: cloud over the base (values are cloud tops, about -20 °C) | [`sentinel-3/SLSTR_L2/2026-10-14/`](sentinel-3/SLSTR_L2/2026-10-14/) |
+
 Earlier OLCI exports for Oct. 4, 16, 17 and 18 (fewer bands) are in the fire archive under [`data/copernicus/manual_exports/sentinel3_olci`](https://github.com/primerogueinc/cfb-wainwright-fire-archive/tree/authentic-stoic-alternative-hypothesis/data/copernicus/manual_exports/sentinel3_olci).
 
 ## Adding an export

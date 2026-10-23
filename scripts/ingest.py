@@ -19,7 +19,8 @@ def main(zin, note):
     for f in files:
         m = re.match(r"(\d{4}-\d{2}-\d{2})-\d{2}_\d{2}_\d{4}-\d{2}-\d{2}-\d{2}_\d{2}_Sentinel-3_(OLCI|SLSTR)_(.+)\.(tiff?|jpe?g|png)$", os.path.basename(f), re.I)
         if not m: print("skip", os.path.basename(f)); continue
-        groups.setdefault((m.group(1), m.group(2).upper()), []).append(f)
+        inst = m.group(2).upper() + ("_L2" if m.group(3).startswith("L2_") else "")
+        groups.setdefault((m.group(1), inst), []).append(f)
     for (date, inst), fs in groups.items():
         sub = date if not note else date + "_" + re.sub(r"[^a-z0-9]+", "-", note.lower()).strip("-")[:20]
         dest = os.path.join(REPO, "sentinel-3", inst, sub); os.makedirs(dest, exist_ok=True)
