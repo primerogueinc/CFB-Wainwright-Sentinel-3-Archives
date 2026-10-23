@@ -27,6 +27,7 @@ Each folder `sentinel-3/<instrument>/<date UTC>/` holds the files exactly as exp
 
 | Date (UTC) | Product | Files | Usable | Folder |
 |---|---|---|---|---|
+| 2026-10-16 | LST + NDVI | 4 | Yes: Clear over the base: fire-area median LST 268.5 K (-4.7 °C). | [`sentinel-3/SLSTR_L2/2026-10-16/`](sentinel-3/SLSTR_L2/2026-10-16/) |
 | 2026-10-15 | LST + NDVI | 4 | Yes: clear. Pre-fire baseline (fire area about 11 °C, NDVI 0.22-0.29) | [`sentinel-3/SLSTR_L2/2026-10-15/`](sentinel-3/SLSTR_L2/2026-10-15/) |
 | 2026-10-14 | LST + NDVI | 4 | No: cloud over the base (values are cloud tops, about -20 °C) | [`sentinel-3/SLSTR_L2/2026-10-14/`](sentinel-3/SLSTR_L2/2026-10-14/) |
 

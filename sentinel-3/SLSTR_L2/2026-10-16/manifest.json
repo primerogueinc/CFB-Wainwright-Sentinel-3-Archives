@@ -1,0 +1,85 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-16",
+ "instrument": "SLSTR_L2",
+ "note": "",
+ "layers": [
+  "L2_LST",
+  "L2_LST_(Raw)",
+  "L2_NDVI",
+  "L2_NDVI_(Raw)"
+ ],
+ "n_files": 4,
+ "qa": {
+  "crs": "EPSG:4326",
+  "pixel_deg": [
+   0.002690839591501384,
+   0.0016315000347507417
+  ],
+  "pixel_m_approx": [
+   181,
+   181
+  ],
+  "bounds": [
+   -111.1933,
+   52.601,
+   -110.4641,
+   52.9094
+  ],
+  "values_at_points": {
+   "origin": {
+    "LST": 268.648,
+    "NDVI": 0.119
+   },
+   "A_range2": {
+    "LST": 268.404,
+    "NDVI": 0.1075
+   },
+   "B_road_head": {
+    "LST": 269.868,
+    "NDVI": 0.1244
+   }
+  },
+  "assessment": {
+   "finding": "Clear over the base: fire-area median LST 268.5 K (-4.7 \u00b0C).",
+   "fire_area_median_K": 268.5,
+   "values_at_points": {
+    "origin": {
+     "LST_K": 268.6,
+     "NDVI": 0.119
+    },
+    "A_range2": {
+     "LST_K": 268.4,
+     "NDVI": 0.108
+    },
+    "B_road_head": {
+     "LST_K": 269.9,
+     "NDVI": 0.124
+    }
+   }
+  },
+  "usable": true
+ },
+ "previews": [],
+ "original_upload": "385b6b12-Browser_images_16.zip",
+ "original_upload_sha256": "181d599355902ac00cbc956eb094bcc2c232984b69161f61c05041e59a9c6071",
+ "files": {
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_SLSTR_L2_LST.tiff": {
+   "bytes": 43951,
+   "sha256": "5b1631a9a10bf869576ce44bf24144f95a97c05cc9f425af7008760b066a0fa3"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_SLSTR_L2_LST_(Raw).tiff": {
+   "bytes": 22237,
+   "sha256": "92c269d00f12495d9e534d62864b9de4edab783439556cfcd2cdd450718adb24"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_SLSTR_L2_NDVI.tiff": {
+   "bytes": 15420,
+   "sha256": "5c77e086c697eb8854281b8dbb4dc03bef0363cd3be7db1b40c53f3c6d9de5b9"
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-3_SLSTR_L2_NDVI_(Raw).tiff": {
+   "bytes": 23368,
+   "sha256": "8e2176466efe995d9bd7d6c6347b8083b7c2ef511bf929432486abab7a9c7c1f"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
