@@ -51,3 +51,7 @@ python3 scripts/ingest.py path/to/Browser_images.zip [--note "night pass"]
 Scripts and documentation: MIT (see LICENSE). Data: Copernicus Sentinel data are free and open under the [Copernicus data policy](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice); credit "Contains modified Copernicus Sentinel data [2026]" when reusing.
 
 Maintained by Prime Rogue Inc.
+
+## Fire radiative power, Oct. 18 passes (added Nov. 27, 2026)
+
+[`sentinel-3/SLSTR_FRP/`](sentinel-3/SLSTR_FRP/): the SL_2_FRP products for the three Oct. 18 passes (11:42 a.m., 10:33 p.m. and 11:08 p.m. MDT). The clear midday pass found no fire within 60 km; both night passes were cloudy over the burn. See that folder's README.
